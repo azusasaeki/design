@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+  <meta caraset="utf-8">
+  <meta name="description" content="クリエイターがが集まるマーケット">
+  <title>mitei</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="slick.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="slick-theme.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="slick.min.js"></script>
+
+</head>
+<body>
+
+    <h1>ロゴ</h1>
+   <div>
+   <class="nav_bar">
+      <div class="nav_bar_nakami">
+        <ul class="nav_bar_list">
+          <li class="nav_bar_category">
+            <a href="/kari_kategory">商品タイムライン</a>
+          </li>
+          <li class="nav_bar_category">
+            <a href="/kari_kategory">インテリア</a>
+          </li>
+          <li class="nav_bar_category">
+            <a href="/kari_kategory">家具</a>
+          </li>
+          <li class="nav_bar_category">
+            <a href="/kari_kategory">小物</a>
+          </li>
+          <li class="nav_bar_category">
+            <a href="/kari_kategory">ウェア</a>
+          </li>
+        </ul>
+      </div>
+
+
+
+<br><br><br><br><br><br>
+
+<div class="slide">
+      <img src="top1.jpg">
+      <img src="top2.jpg">
+      <img src="top3.jpg">
+     <img src="top3.jpg">
+    </div>
+
+
+
+
+    <h2 class="info">クリエイターのマーケットプレイス</h2>
+      <p>クリエイターの作品一覧を見る</p>
+      <p>クリエイター一覧を見る</p>
+
+
+    <h2>byebye</h2>
+    <p>ここで終わる</p>
+    <p>つかれた</p>
+
+ <script>
+    $(document).ready(function(){
+        $('.slide').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+        });
+    });
+    </script>
+
+</body>
+</html>
