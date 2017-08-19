@@ -1,110 +1,101 @@
-html, body {
-        position: relative;
-        height: 100%;
-}
+html,
 body {
-        background: #FFFFFF;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-      /*  color:#000;*/
-        margin: 0;
-        padding: 0;
+    position: relative;
+    height: 100%;
 }
 
-.header-inner{
-    padding-left: 90px;
-    margin: 0px;
+body {
+    background: #FFFFFF;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /*  color:#000;*/
+    margin: 0;
+    padding: 0;
 }
 
-
-
-.icondomo{
-    /*float: left;*/
+ul{
+    padding: 0;
 }
 
-.icon-ten{
-    list-style:none;
+/*ヘッダー*/
+
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.logo{
+.header {
     height: 90px;
     text-align: center;
+    position: relative;
+    padding-top: 15px;
 }
-.icon{
+
+.logo {
+    height: 90px;
+}
+
+.icon {
     height: 50px;
-    padding-top: 20px;
-    list-style: none;
+    position: absolute;
+    right: 5px;
+    margin-top: 20px;
+    float: right;
 }
 
-.header-logo{
 
-}
 
-.header-submenu{
-    padding-right:90px;
-}
+/*nabige-syon*/
 
- .nav_bar_list{
+.nav_bar_list {
     width: 100%;
     height: 40px;
     list-style: none;
     word-spacing: 2em;
     display: block;
     line-height: 50px;
-    padding-left: 90px:
     vertical-align: baseline;
     color: #2E2E2E;
 }
 
-.nav_bar_category{
-   float: left;
-   padding-right: 20px ;
-   background-color:#FFFFFF;
-   text-align: center;
-   color: #2E2E2E;
-   text-decoration: none;
+
+.nav_bar_category {
+    float: left;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #2E2E2E;
+    text-decoration: none;
 }
 
-.nav-bar-category :hover {
-    color:#FE2E64;
-    /*font-style:normal;*/
-    /*text-decoration:underline;*/
+.nav_bar_category:hover {
+    color: #FE2E64;
 }
 
-/*.nav-bar_category :hover{
-    background-color:#47a89c;
-}*/
+.post_contents ul li {
+    list-style-type: none;
+    background-image: none;
+    padding-left: 0;
+}
 
-.post_contents ul li { list-style-type:none; background-image:none; padding-left:0; }
+.slide-pic {
+    height: 90%;
+    max-width: 300px;
+    height: auto;
+}
 
-.ninki-title{
-    font-family: "ＭＳ ゴシック",sans-serif;
+.ninki-title {
+    font-family: "ＭＳ ゴシック", sans-serif;
     font-size: ;
     padding-top: 40px;
-    padding-left: 90px;
 }
 
-.ninki-category-products{
+.ninki-category-products {
     list-style: none;
-    padding-left: 90px;
-}
-
-.ninki-products-all{
-    float: left;
-}
-
-.ninki-products{
-     height: 200px;
-     padding-right: 20px;
 }
 
 
-
-/*スライド画像の横幅可変*/
-/*.img {
-    max-width: 100%;
-     height: auto;
+.ninki-products {
+    height: 200px;
+    padding-right: 20px;
 }
-*/
-
-
