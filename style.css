@@ -1,105 +1,110 @@
-@charset "utf-8"
-
-.body{
-font-size:18px
+html, body {
+        position: relative;
+        height: 100%;
+}
+body {
+        background: #FFFFFF;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+      /*  color:#000;*/
+        margin: 0;
+        padding: 0;
 }
 
-.info{
-font-size: 8px
+.header-inner{
+    padding-left: 90px;
+    margin: 0px;
 }
 
- .nav_bar{
-    width: 100%
-    /*width:800px;*/
-    /*height: 30px;
-    margin:0 auto;*/
-    list-style:none;*/
+
+
+.icondomo{
+    /*float: left;*/
 }
 
-.nav_bar_list{
-    display:block;
-    line-height:50px;
+.icon-ten{
+    list-style:none;
+}
+
+.logo{
+    height: 90px;
+    text-align: center;
+}
+.icon{
+    height: 50px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+.header-logo{
+
+}
+
+.header-submenu{
+    padding-right:90px;
+}
+
+ .nav_bar_list{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    word-spacing: 2em;
+    display: block;
+    line-height: 50px;
+    padding-left: 90px:
     vertical-align: baseline;
-}
-
-.nav_bar_list{
-  list-style:none;
-  word-spacing: 2em
+    color: #2E2E2E;
 }
 
 .nav_bar_category{
-   width: 133px;
    float: left;
-   padding : 20px ;
-   background-color:#FFFFFF;  /
-   /*text-align: center;*/
+   padding-right: 20px ;
+   background-color:#FFFFFF;
+   text-align: center;
    color: #2E2E2E;
+   text-decoration: none;
 }
 
-.nav-bar_category :hover{
-  background-color:#47a89c;
+.nav-bar-category :hover {
+    color:#FE2E64;
+    /*font-style:normal;*/
+    /*text-decoration:underline;*/
 }
+
+/*.nav-bar_category :hover{
+    background-color:#47a89c;
+}*/
 
 .post_contents ul li { list-style-type:none; background-image:none; padding-left:0; }
 
- html, body {
-        position: relative;
-        height: 100%;
-    }
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
-    .swiper-container {
-        width: 100%;
-        height: 100%;
-    }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
+.ninki-title{
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size: ;
+    padding-top: 40px;
+    padding-left: 90px;
+}
 
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
+.ninki-category-products{
+    list-style: none;
+    padding-left: 90px;
+}
 
-/*共通css*/
-/*左右の矢印の色を変える*/
-.slick-prev:before,
-.slick-next:before {
-    color: #000;
+.ninki-products-all{
+    float: left;
 }
-/*左右の矢印の位置を変える*/
-.slick-next {
-    right: 20px;
-    z-index: 99;
+
+.ninki-products{
+     height: 200px;
+     padding-right: 20px;
 }
-.slick-prev {
-     left: 15px;
-    z-index: 100;
-}
-/*スライド数のドットの色を変える*/
-.slick-dots li.slick-active button:before,
-.slick-dots li button:before {
-    color: #fff;
-}
+
+
+
 /*スライド画像の横幅可変*/
-img {
+/*.img {
     max-width: 100%;
      height: auto;
 }
+*/
+
+
