@@ -1,0 +1,30 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #FFFFFF;
+    font-family:Helvetica;
+    font-size: 14px;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+a:hover{
+    color: #FE2E64;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}

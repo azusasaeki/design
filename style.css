@@ -6,21 +6,28 @@ body {
 
 body {
     background: #FFFFFF;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family:Helvetica;
     font-size: 14px;
-    /*  color:#000;*/
     margin: 0;
-    padding: 0;
 }
 
 ul{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+a:hover{
+    color: #FE2E64;
+}
+
 /*ヘッダー*/
 
 .container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -32,7 +39,9 @@ ul{
 }
 
 .logo {
+    float: left;
     height: 90px;
+    margin-left:-10px;
 }
 
 .icon {
@@ -44,6 +53,11 @@ ul{
 }
 
 
+/*スライダー*/
+
+.slidepic{
+    height: 100px;
+}
 
 /*nabige-syon*/
 
@@ -65,11 +79,49 @@ ul{
     background-color: #FFFFFF;
     text-align: center;
     color: #2E2E2E;
-    text-decoration: none;
 }
 
-.nav_bar_category:hover {
+/*.nav_bar_category:hover {
     color: #FE2E64;
+}*/
+/*top product*/
+
+.category1{
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid #000;
+    height: 33px;
+
+}
+
+.category1 span{
+        position: relative;
+    top: -20px;
+background: #fff;
+padding: 0 60px;
+
+}
+
+.top-product{
+    margin-bottom: 20px;
+    padding: 1em;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    margin: 0 0 2em 0;
+    display:inline-block;
+}
+
+.aaa{
+    float: left;
+    display: inline-block;
+}
+
+.top-product p{
+    margin: 0;
+}
+
+.top-product-img{
+    height: 200px;
 }
 
 .post_contents ul li {
@@ -99,3 +151,66 @@ ul{
     height: 200px;
     padding-right: 20px;
 }
+
+/*box*/
+/*.boxes{
+    float: left;
+    padding-right: 10px
+}*/
+
+.box{
+    background-color:#D8D8D8;
+    height: 380px;
+    width:320px;
+    display: inline-block; _display: inline;
+    float: left;
+    margin-right: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.creater-icon{
+    height: 60px;
+}
+
+.boxpic{
+    height: 200px;
+    padding: auto;
+}
+
+.categoryintro{
+    font-size: 5px;
+    padding: none;
+}
+
+.stafftitle{
+    text-align:center
+}
+
+
+/*フッター*/
+
+
+.footer {
+    height: 50px;
+    background-color:#D8D8D8;
+    padding: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

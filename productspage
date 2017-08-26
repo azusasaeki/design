@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta caraset="utf-8">
+    <meta name="description" content="商品詳細ページ">
+    <title>product</title>
+    <link rel="stylesheet" href="productspage.css">
+    <!-- ビューポートの設定 -->
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="logo" src="logo1.jpg">
+            <img class="icon" src="image1.png">
+        </header>
+        <div class="info">
+            <!-- 商品画像 -->
+            <img class="product-photo" src="product1.png">
+            </dir>
+            <!-- 商品情報 -->
+            <div class="product-info">
+                <p class="creater-name">クリエイター</p>
+                <p class="product-name">ミンネから取って来たテーブル</p>
+                <p class="product-price">￥1000</p>
+                <div class="purchase">購入ボタン</div>
+                <div class="creater-box">
+                    <div class="creater-box-nakami">
+                        <img class="creater-icon" src="iconazusa.jpg">
+                        <p class="creater-name-box"><a href="createrpage">クリエイター</a></p>
+                        <div class=class="creater-others-box">
+                        <ul>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                          <li><img class="creater-others" src="images/p2.png"></li>
+                        </ul>
+                        </div>
+                        <img class="iine" src="iine.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-discription">
+    </div>
+</body>
+
+</html>
